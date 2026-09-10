@@ -1,0 +1,2470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PRIMARY SEO META -->
+    <title>PT. Pintek Sukses Indonesia | Marine Technical Inspection & NDT Services</title>
+    <meta name="description" content="PT. Pintek Sukses Indonesia provides professional Technical Inspection and Non-Destructive Testing (NDT) services for the Marine Industry. Services include Ultrasonic Thickness Measurement, Ultrasonic Flaw Detection, Magnetic Particle Inspection, Liquid Penetrant Testing, and Megger Insulation Testing.">
+    <meta name="keywords" content="NDT, Non-Destructive Testing, Marine Inspection, Technical Inspection, Ultrasonic Thickness Measurement, Ultrasonic Testing, Magnetic Particle Testing, Penetrant Testing, Megger Test, Indonesia, PT Pintek Sukses Indonesia">
+    <meta name="author" content="PT. Pintek Sukses Indonesia">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.pinteksukses.co.id/">
+    
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PT. Pintek Sukses Indonesia | Marine Technical Inspection & NDT Services">
+    <meta property="og:description" content="Professional Technical Inspection and Non-Destructive Testing (NDT) services for the Marine Industry. Precision in inspection, confidence in every result.">
+    <meta property="og:site_name" content="PT. Pintek Sukses Indonesia">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PT. Pintek Sukses Indonesia | Marine NDT & Technical Inspection">
+    <meta name="twitter:description" content="Professional Technical Inspection and Non-Destructive Testing services for the Marine Industry.">
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- LUCIDE ICONS -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    
+    <!-- STRUCTURED DATA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "PT. Pintek Sukses Indonesia",
+      "description": "Technical Inspection and Non-Destructive Testing (NDT) services for the Marine Industry.",
+      "email": "Pinteksuksesindonesia@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gedung Menara Satu Lantai 6 Unit 603, Jl. Boulevard Kelapa Gading LA3 No.1",
+        "addressLocality": "Jakarta Utara",
+        "postalCode": "14240",
+        "addressCountry": "ID"
+      }
+    }
+    </script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy-deep': '#071A2B',
+                        'navy': '#0E304A',
+                        'navy-light': '#1A4A6E',
+                        'off-white': '#F5F7F8',
+                        'charcoal': '#1A232B',
+                        'steel': '#4A6B85',
+                        'steel-light': '#8BA3B8',
+                        'steel-dark': '#2A4456',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'display': ['Manrope', 'Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        :root {
+            --navy-deep: #071A2B;
+            --navy: #0E304A;
+            --navy-light: #1A4A6E;
+            --off-white: #F5F7F8;
+            --charcoal: #1A232B;
+            --steel: #4A6B85;
+            --steel-light: #8BA3B8;
+            --steel-dark: #2A4456;
+            --border-light: rgba(74, 107, 133, 0.12);
+            --border-dark: rgba(139, 163, 184, 0.15);
+        }
+        
+        * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--off-white);
+            color: var(--charcoal);
+            overflow-x: hidden;
+        }
+        
+        .font-display {
+            font-family: 'Manrope', 'Inter', sans-serif;
+        }
+        
+        /* SCROLLBAR */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--navy-deep); }
+        ::-webkit-scrollbar-thumb { background: var(--steel); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--steel-light); }
+        
+        /* SELECTION */
+        ::selection { background: var(--navy); color: var(--off-white); }
+        
+        /* TECHNICAL GRID BACKGROUND */
+        .tech-grid {
+            background-image: 
+                linear-gradient(rgba(74, 107, 133, 0.06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(74, 107, 133, 0.06) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+        
+        .tech-grid-dark {
+            background-image: 
+                linear-gradient(rgba(139, 163, 184, 0.04) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(139, 163, 184, 0.04) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+        
+        /* EYEBROW LABEL */
+        .eyebrow {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+        
+        /* SCROLL REVEAL */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+        .reveal-delay-4 { transition-delay: 0.4s; }
+        
+        /* HERO ANIMATIONS */
+        @keyframes scanSweep {
+            0% { transform: translateX(-100%); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateX(100%); opacity: 0; }
+        }
+        
+        @keyframes pulsePoint {
+            0%, 100% { opacity: 0.4; r: 4; }
+            50% { opacity: 1; r: 6; }
+        }
+        
+        @keyframes waveExpand {
+            0% { r: 8; opacity: 0.8; }
+            100% { r: 40; opacity: 0; }
+        }
+        
+        @keyframes dashMove {
+            to { stroke-dashoffset: -20; }
+        }
+        
+        @keyframes floatLabel {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-4px); }
+        }
+        
+        .scan-line {
+            animation: scanSweep 4s ease-in-out infinite;
+        }
+        
+        .pulse-pt {
+            animation: pulsePoint 2s ease-in-out infinite;
+            transform-origin: center;
+        }
+        
+        .wave-ring {
+            animation: waveExpand 2.5s ease-out infinite;
+            transform-origin: center;
+        }
+        
+        .dash-anim {
+            stroke-dasharray: 4 4;
+            animation: dashMove 1s linear infinite;
+        }
+        
+        .float-anim {
+            animation: floatLabel 3s ease-in-out infinite;
+        }
+        
+        /* CARD HOVER */
+        .service-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .service-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--steel);
+            box-shadow: 0 20px 40px -12px rgba(7, 26, 43, 0.12);
+        }
+        
+        /* BUTTON */
+        .btn-primary {
+            background: var(--navy);
+            color: var(--off-white);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-primary:hover {
+            background: var(--navy-deep);
+            transform: translateY(-1px);
+            box-shadow: 0 10px 25px -8px rgba(7, 26, 43, 0.4);
+        }
+        
+        .btn-outline {
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            color: var(--off-white);
+            transition: all 0.3s ease;
+        }
+        .btn-outline:hover {
+            border-color: rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        .btn-steel {
+            background: var(--steel);
+            color: var(--off-white);
+            transition: all 0.3s ease;
+        }
+        .btn-steel:hover {
+            background: var(--navy);
+            transform: translateY(-1px);
+        }
+        
+        /* NAVIGATION */
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--steel-light);
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+        
+        /* MOBILE MENU */
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .mobile-menu.open {
+            transform: translateX(0);
+        }
+        
+        /* MONOGRAM AVATAR */
+        .monogram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Manrope', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+        
+        /* FORM */
+        .form-input {
+            background: white;
+            border: 1px solid var(--border-light);
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+        }
+        .form-input:focus {
+            outline: none;
+            border-color: var(--steel);
+            box-shadow: 0 0 0 3px rgba(74, 107, 133, 0.1);
+        }
+        .form-input.error {
+            border-color: #c0392b;
+        }
+        
+        /* GALLERY */
+        .gallery-item {
+            overflow: hidden;
+            position: relative;
+        }
+        .gallery-item img,
+        .gallery-item .placeholder-img {
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .gallery-item:hover img,
+        .gallery-item:hover .placeholder-img {
+            transform: scale(1.05);
+        }
+        
+        /* BACK TO TOP */
+        .back-to-top {
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        /* COUNTER */
+        .counter {
+            font-variant-numeric: tabular-nums;
+        }
+        
+        /* DIVIDER */
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border-light), transparent);
+        }
+        
+        /* PROJECT CARD */
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            border-color: var(--steel);
+            background: white;
+        }
+        
+        /* DOC CARD */
+        .doc-card {
+            transition: all 0.3s ease;
+        }
+        .doc-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px -8px rgba(7, 26, 43, 0.2);
+        }
+        
+        /* HIDE SCROLLBAR FOR HORIZONTAL SCROLL AREAS */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        /* LOADING SHIMMER */
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+        .shimmer {
+            background: linear-gradient(90deg, #e8edf0 25%, #f5f7f8 50%, #e8edf0 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+        
+        /* ACCESSIBILITY */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-off-white text-charcoal">
+
+    <!-- ============================================ -->
+    <!-- NAVIGATION -->
+    <!-- ============================================ -->
+    <header id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" style="background: rgba(7, 26, 43, 0.95); backdrop-filter: blur(12px);">
+        <nav class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div id="nav-container" class="flex items-center justify-between transition-all duration-300 py-4">
+                
+                <!-- LOGO -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="relative">
+                        <div class="w-10 h-10 bg-navy-light border border-steel/30 flex items-center justify-center rounded-sm">
+                            <span class="text-off-white font-display font-extrabold text-sm tracking-tight">PSI</span>
+                        </div>
+                        <div class="absolute -bottom-1 -right-1 w-3 h-3 bg-steel rounded-full border-2 border-navy-deep"></div>
+                    </div>
+                    <div class="hidden sm:block">
+                        <div class="text-off-white font-display font-bold text-sm leading-tight tracking-wide">PINTEK SUKSES</div>
+                        <div class="text-steel-light text-[10px] tracking-[0.2em] uppercase font-medium">Indonesia</div>
+                    </div>
+                </a>
+                
+                <!-- DESKTOP NAV -->
+                <div class="hidden lg:flex items-center gap-7">
+                    <a href="#home" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide active">Home</a>
+                    <a href="#about" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide">About</a>
+                    <a href="#services" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide">Services</a>
+                    <a href="#quality" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide">Quality</a>
+                    <a href="#equipment" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide">Equipment</a>
+                    <a href="#projects" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide">Projects</a>
+                    <a href="#people" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide">People</a>
+                    <a href="#certification" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide">Certification</a>
+                    <a href="#gallery" class="nav-link text-steel-light hover:text-off-white text-[13px] font-medium tracking-wide">Gallery</a>
+                </div>
+                
+                <!-- CTA + MOBILE TOGGLE -->
+                <div class="flex items-center gap-4">
+                    <a href="#contact" class="hidden lg:inline-flex btn-steel px-5 py-2.5 text-[12px] font-semibold tracking-[0.12em] uppercase rounded-sm items-center gap-2">
+                        <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+                        Get in Touch
+                    </a>
+                    <button id="menu-toggle" class="lg:hidden text-off-white p-2" aria-label="Open menu">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- MOBILE MENU OVERLAY -->
+    <div id="mobile-menu" class="mobile-menu fixed inset-0 z-[60] bg-navy-deep lg:hidden">
+        <div class="flex items-center justify-between px-6 py-5 border-b border-steel/10">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-navy-light border border-steel/30 flex items-center justify-center rounded-sm">
+                    <span class="text-off-white font-display font-extrabold text-sm">PSI</span>
+                </div>
+                <div>
+                    <div class="text-off-white font-display font-bold text-sm">PINTEK SUKSES</div>
+                    <div class="text-steel-light text-[10px] tracking-[0.2em] uppercase">Indonesia</div>
+                </div>
+            </div>
+            <button id="menu-close" class="text-off-white p-2" aria-label="Close menu">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <div class="px-6 py-8 flex flex-col gap-1 overflow-y-auto h-[calc(100vh-80px)]">
+            <a href="#home" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Home <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#about" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">About <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#services" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Services <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#quality" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Quality & Competency <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#equipment" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Equipment <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#projects" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Project Experience <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#people" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Our People <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#certification" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Certification <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#gallery" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Gallery <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            <a href="#contact" class="mobile-link text-off-white text-lg font-medium py-3 border-b border-steel/10 flex items-center justify-between">Contact <i data-lucide="arrow-right" class="w-4 h-4 text-steel"></i></a>
+            
+            <div class="mt-8">
+                <a href="#contact" class="mobile-link btn-steel w-full px-6 py-4 text-sm font-semibold tracking-[0.12em] uppercase rounded-sm text-center block">Get in Touch</a>
+            </div>
+            
+            <div class="mt-auto pt-8 text-steel-light text-xs">
+                <p>PT. PINTEK SUKSES INDONESIA</p>
+                <p class="mt-1">Technical Inspection & NDT</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION -->
+    <!-- ============================================ -->
+    <section id="home" class="relative min-h-screen bg-navy-deep overflow-hidden flex items-center pt-20">
+        
+        <!-- BACKGROUND GRID -->
+        <div class="absolute inset-0 tech-grid-dark opacity-60"></div>
+        
+        <!-- GRADIENT OVERLAY -->
+        <div class="absolute inset-0 bg-gradient-to-br from-navy-deep via-navy-deep to-navy"></div>
+        
+        <!-- HERO CONTENT -->
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full py-20">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- LEFT: TEXT -->
+                <div class="lg:col-span-6 reveal">
+                    <!-- EYEBROW -->
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-8 h-px bg-steel"></div>
+                        <span class="eyebrow text-steel-light">Marine Technical Inspection & NDT</span>
+                    </div>
+                    
+                    <!-- HEADLINE -->
+                    <h1 class="font-display font-extrabold text-off-white leading-[1.05] tracking-tight mb-8" style="font-size: clamp(2.5rem, 5.5vw, 4.2rem);">
+                        Precision in Inspection.<br>
+                        <span class="text-steel-light">Confidence</span> in Every Result.
+                    </h1>
+                    
+                    <!-- SUBHEADLINE -->
+                    <div class="max-w-xl mb-10">
+                        <p class="text-off-white font-display font-semibold text-lg mb-2">PT. Pintek Sukses Indonesia</p>
+                        <p class="text-steel-light text-base leading-relaxed">
+                            Technical Inspection & Non-Destructive Testing Services for the Marine Industry — delivered by certified personnel using adequate equipment, with a commitment to quality and complete service.
+                        </p>
+                    </div>
+                    
+                    <!-- CTAs -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#services" class="btn-primary px-7 py-4 text-[12px] font-semibold tracking-[0.14em] uppercase rounded-sm inline-flex items-center justify-center gap-2.5">
+                            Explore Our Services
+                            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                        <a href="#contact" class="btn-outline px-7 py-4 text-[12px] font-semibold tracking-[0.14em] uppercase rounded-sm inline-flex items-center justify-center gap-2.5">
+                            Contact Us
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- RIGHT: HERO VISUAL -->
+                <div class="lg:col-span-6 reveal reveal-delay-2 hero-visual">
+                    <div class="relative">
+                        <!-- TECHNICAL INSPECTION VISUALIZATION -->
+                        <div class="relative aspect-[4/3] rounded-sm overflow-hidden border border-steel/20 bg-navy-deep">
+                            
+                            <!-- SVG VISUAL -->
+                            <svg viewBox="0 0 600 450" class="w-full h-full" preserveAspectRatio="xMidYMid meet">
+                                <defs>
+                                    <!-- Grid pattern -->
+                                    <pattern id="heroGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+                                        <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(139,163,184,0.08)" stroke-width="0.5"/>
+                                    </pattern>
+                                    
+                                    <!-- Fine grid -->
+                                    <pattern id="heroFineGrid" width="6" height="6" patternUnits="userSpaceOnUse">
+                                        <path d="M 6 0 L 0 0 0 6" fill="none" stroke="rgba(139,163,184,0.04)" stroke-width="0.5"/>
+                                    </pattern>
+                                    
+                                    <!-- Hull gradient -->
+                                    <linearGradient id="hullGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#0E304A" stop-opacity="0.6"/>
+                                        <stop offset="100%" stop-color="#071A2B" stop-opacity="0.9"/>
+                                    </linearGradient>
+                                    
+                                    <!-- Probe gradient -->
+                                    <linearGradient id="probeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#8BA3B8"/>
+                                        <stop offset="100%" stop-color="#4A6B85"/>
+                                    </linearGradient>
+                                </defs>
+                                
+                                <!-- Background grids -->
+                                <rect width="600" height="450" fill="url(#heroFineGrid)"/>
+                                <rect width="600" height="450" fill="url(#heroGrid)"/>
+                                
+                                <!-- Coordinate axes -->
+                                <g stroke="rgba(139,163,184,0.15)" stroke-width="0.5">
+                                    <line x1="40" y1="40" x2="40" y2="410"/>
+                                    <line x1="40" y1="410" x2="560" y2="410"/>
+                                </g>
+                                
+                                <!-- Axis labels -->
+                                <g fill="rgba(139,163,184,0.4)" font-family="Inter" font-size="8">
+                                    <text x="35" y="45" text-anchor="end">Y</text>
+                                    <text x="560" y="422">X</text>
+                                    <text x="35" y="415" text-anchor="end">0</text>
+                                </g>
+                                
+                                <!-- Scale ticks -->
+                                <g stroke="rgba(139,163,184,0.2)" stroke-width="0.5">
+                                    <line x1="40" y1="120" x2="45" y2="120"/>
+                                    <line x1="40" y1="200" x2="45" y2="200"/>
+                                    <line x1="40" y1="280" x2="45" y2="280"/>
+                                    <line x1="40" y1="360" x2="45" y2="360"/>
+                                    <line x1="120" y1="410" x2="120" y2="415"/>
+                                    <line x1="200" y1="410" x2="200" y2="415"/>
+                                    <line x1="280" y1="410" x2="280" y2="415"/>
+                                    <line x1="360" y1="410" x2="360" y2="415"/>
+                                    <line x1="440" y1="410" x2="440" y2="415"/>
+                                    <line x1="520" y1="410" x2="520" y2="415"/>
+                                </g>
+                                
+                                <!-- SHIP HULL CROSS-SECTION -->
+                                <!-- Outer hull -->
+                                <path d="M 80 130 Q 80 380 300 390 Q 520 380 520 130" 
+                                      fill="url(#hullGrad)" 
+                                      stroke="rgba(139,163,184,0.5)" 
+                                      stroke-width="1.5"/>
+                                
+                                <!-- Inner hull plate (showing thickness) -->
+                                <path d="M 80 138 Q 80 372 300 382 Q 520 372 520 138" 
+                                      fill="none" 
+                                      stroke="rgba(139,163,184,0.25)" 
+                                      stroke-width="1"/>
+                                
+                                <!-- Stiffener lines -->
+                                <g stroke="rgba(139,163,184,0.15)" stroke-width="0.5">
+                                    <line x1="160" y1="140" x2="160" y2="375"/>
+                                    <line x1="240" y1="145" x2="240" y2="380"/>
+                                    <line x1="320" y1="145" x2="320" y2="385"/>
+                                    <line x1="400" y1="145" x2="400" y2="380"/>
+                                    <line x1="460" y1="140" x2="460" y2="370"/>
+                                </g>
+                                
+                                <!-- MEASUREMENT POINTS -->
+                                <!-- Point 1 -->
+                                <g>
+                                    <circle cx="160" cy="200" r="4" fill="#4A6B85" class="pulse-pt"/>
+                                    <circle cx="160" cy="200" r="8" fill="none" stroke="#4A6B85" stroke-width="1" opacity="0.4" class="wave-ring"/>
+                                    <line x1="160" y1="200" x2="160" y2="80" stroke="rgba(139,163,184,0.2)" stroke-width="0.5" stroke-dasharray="2,3"/>
+                                    <rect x="130" y="60" width="80" height="18" fill="#071A2B" stroke="rgba(139,163,184,0.3)" stroke-width="0.5" rx="2"/>
+                                    <text x="170" y="72" fill="#8BA3B8" font-family="Inter" font-size="8" text-anchor="middle" font-weight="600">UTM-01 · 18.5mm</text>
+                                </g>
+                                
+                                <!-- Point 2 -->
+                                <g>
+                                    <circle cx="280" cy="280" r="4" fill="#4A6B85" class="pulse-pt" style="animation-delay: 0.5s"/>
+                                    <circle cx="280" cy="280" r="8" fill="none" stroke="#4A6B85" stroke-width="1" opacity="0.4" class="wave-ring" style="animation-delay: 0.5s"/>
+                                    <line x1="280" y1="280" x2="280" y2="100" stroke="rgba(139,163,184,0.2)" stroke-width="0.5" stroke-dasharray="2,3"/>
+                                    <rect x="250" y="82" width="80" height="18" fill="#071A2B" stroke="rgba(139,163,184,0.3)" stroke-width="0.5" rx="2"/>
+                                    <text x="290" y="94" fill="#8BA3B8" font-family="Inter" font-size="8" text-anchor="middle" font-weight="600">UTM-02 · 16.2mm</text>
+                                </g>
+                                
+                                <!-- Point 3 -->
+                                <g>
+                                    <circle cx="400" cy="220" r="4" fill="#4A6B85" class="pulse-pt" style="animation-delay: 1s"/>
+                                    <circle cx="400" cy="220" r="8" fill="none" stroke="#4A6B85" stroke-width="1" opacity="0.4" class="wave-ring" style="animation-delay: 1s"/>
+                                    <line x1="400" y1="220" x2="400" y2="85" stroke="rgba(139,163,184,0.2)" stroke-width="0.5" stroke-dasharray="2,3"/>
+                                    <rect x="370" y="67" width="80" height="18" fill="#071A2B" stroke="rgba(139,163,184,0.3)" stroke-width="0.5" rx="2"/>
+                                    <text x="410" y="79" fill="#8BA3B8" font-family="Inter" font-size="8" text-anchor="middle" font-weight="600">UTM-03 · 19.8mm</text>
+                                </g>
+                                
+                                <!-- UT PROBE -->
+                                <g transform="translate(340, 130)">
+                                    <!-- Probe body -->
+                                    <rect x="-12" y="-20" width="24" height="20" fill="url(#probeGrad)" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" rx="2"/>
+                                    <!-- Cable -->
+                                    <path d="M 0 -20 Q -5 -35 -15 -40 Q -25 -45 -30 -50" fill="none" stroke="rgba(139,163,184,0.4)" stroke-width="1.5"/>
+                                    <!-- Beam cone -->
+                                    <path d="M -8 0 L -20 40 L 20 40 L 8 0 Z" fill="rgba(74,107,133,0.08)" stroke="rgba(74,107,133,0.2)" stroke-width="0.5" stroke-dasharray="2,2"/>
+                                    <!-- Label -->
+                                    <rect x="-30" y="-50" width="60" height="16" fill="#071A2B" stroke="rgba(139,163,184,0.3)" stroke-width="0.5" rx="2"/>
+                                    <text x="0" y="-40" fill="#8BA3B8" font-family="Inter" font-size="7" text-anchor="middle" font-weight="600">UT PROBE</text>
+                                </g>
+                                
+                                <!-- DIMENSION ANNOTATIONS -->
+                                <!-- Thickness dimension -->
+                                <g>
+                                    <line x1="540" y1="130" x2="555" y2="130" stroke="rgba(139,163,184,0.4)" stroke-width="0.5"/>
+                                    <line x1="540" y1="138" x2="555" y2="138" stroke="rgba(139,163,184,0.4)" stroke-width="0.5"/>
+                                    <line x1="550" y1="130" x2="550" y2="138" stroke="rgba(139,163,184,0.4)" stroke-width="0.5"/>
+                                    <text x="558" y="137" fill="rgba(139,163,184,0.6)" font-family="Inter" font-size="7">t=8mm</text>
+                                </g>
+                                
+                                <!-- Scanning line -->
+                                <rect x="0" y="0" width="2" height="450" fill="rgba(74,107,133,0.3)" class="scan-line"/>
+                                
+                                <!-- Status indicators -->
+                                <g transform="translate(20, 425)">
+                                    <circle cx="0" cy="0" r="3" fill="#4A6B85" class="pulse-pt"/>
+                                    <text x="8" y="3" fill="rgba(139,163,184,0.5)" font-family="Inter" font-size="7">SCAN ACTIVE</text>
+                                </g>
+                                
+                                <g transform="translate(490, 425)">
+                                    <text x="0" y="3" fill="rgba(139,163,184,0.4)" font-family="Inter" font-size="7">FREQ: 5MHz</text>
+                                </g>
+                            </svg>
+                            
+                            <!-- Overlay corner brackets -->
+                            <div class="absolute top-3 left-3 w-6 h-6 border-l border-t border-steel/40"></div>
+                            <div class="absolute top-3 right-3 w-6 h-6 border-r border-t border-steel/40"></div>
+                            <div class="absolute bottom-3 left-3 w-6 h-6 border-l border-b border-steel/40"></div>
+                            <div class="absolute bottom-3 right-3 w-6 h-6 border-r border-b border-steel/40"></div>
+                            
+                            <!-- Top label -->
+                            <div class="absolute top-4 left-1/2 -translate-x-1/2 flex items-center gap-2 px-3 py-1.5 bg-navy-deep/80 border border-steel/20 rounded-sm">
+                                <div class="w-1.5 h-1.5 bg-steel rounded-full pulse-pt"></div>
+                                <span class="text-steel-light text-[10px] tracking-[0.15em] uppercase font-medium">Hull Thickness Survey · UTM</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Data strip below visual -->
+                        <div class="mt-4 grid grid-cols-3 gap-3">
+                            <div class="bg-navy border border-steel/15 px-4 py-3 rounded-sm">
+                                <div class="text-steel-light text-[9px] tracking-[0.15em] uppercase mb-1">Method</div>
+                                <div class="text-off-white font-display font-semibold text-sm">Ultrasonic</div>
+                            </div>
+                            <div class="bg-navy border border-steel/15 px-4 py-3 rounded-sm">
+                                <div class="text-steel-light text-[9px] tracking-[0.15em] uppercase mb-1">Industry</div>
+                                <div class="text-off-white font-display font-semibold text-sm">Marine</div>
+                            </div>
+                            <div class="bg-navy border border-steel/15 px-4 py-3 rounded-sm">
+                                <div class="text-steel-light text-[9px] tracking-[0.15em] uppercase mb-1">Standard</div>
+                                <div class="text-off-white font-display font-semibold text-sm">Certified</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- BOTTOM TRUST STRIP -->
+        <div class="absolute bottom-0 left-0 right-0 border-t border-steel/10 bg-navy-deep/50 backdrop-blur-sm">
+            <div class="max-w-7xl mx-auto px-6 lg:px-8 py-5">
+                <div class="flex flex-wrap items-center justify-center md:justify-between gap-6">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="shield-check" class="w-4 h-4 text-steel"></i>
+                        <span class="text-steel-light text-xs font-medium">Certified Personnel</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="gauge" class="w-4 h-4 text-steel"></i>
+                        <span class="text-steel-light text-xs font-medium">Adequate Equipment</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="anchor" class="w-4 h-4 text-steel"></i>
+                        <span class="text-steel-light text-xs font-medium">Marine Industry Focus</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="file-check" class="w-4 h-4 text-steel"></i>
+                        <span class="text-steel-light text-xs font-medium">Complete Documentation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- ABOUT SECTION -->
+    <!-- ============================================ -->
+    <section id="about" class="py-24 lg:py-32 bg-off-white relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-16 items-start">
+                
+                <!-- LEFT: Content -->
+                <div class="lg:col-span-7 reveal">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-8 h-px bg-steel"></div>
+                        <span class="eyebrow text-steel">About Us</span>
+                    </div>
+                    
+                    <h2 class="font-display font-extrabold text-charcoal leading-[1.1] tracking-tight mb-8" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                        Technical inspection and non-destructive testing for the marine industry.
+                    </h2>
+                    
+                    <div class="space-y-6 text-charcoal/80 leading-relaxed">
+                        <p class="text-lg">
+                            <span class="font-semibold text-charcoal">PT. Pintek Sukses Indonesia</span> is engaged in Technical Inspection and Non-Destructive Test (NDT) services, with a focus on the Marine Industry.
+                        </p>
+                        <p>
+                            The company is supported by adequate equipment and a team of experienced and certified personnel, enabling us to carry out inspection and testing activities in accordance with recognized methods and industry practice.
+                        </p>
+                        <p>
+                            We are committed to providing quality service and complete service in accordance with customer needs — delivering reliable inspection data, clear documentation, and professional support throughout every engagement.
+                        </p>
+                    </div>
+                    
+                    <!-- PRINCIPLE STATEMENT -->
+                    <div class="mt-10 pl-6 border-l-2 border-steel">
+                        <p class="font-display font-semibold text-navy text-lg leading-snug italic">
+                            "Our focus is on reliability, technical competence, and complete service — so that every inspection result supports confident decision-making."
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- RIGHT: Stats/Visual -->
+                <div class="lg:col-span-5 reveal reveal-delay-2">
+                    <div class="bg-navy-deep rounded-sm p-8 lg:p-10 relative overflow-hidden">
+                        <!-- Grid background -->
+                        <div class="absolute inset-0 tech-grid-dark opacity-40"></div>
+                        
+                        <div class="relative z-10">
+                            <div class="flex items-center gap-3 mb-8">
+                                <i data-lucide="activity" class="w-5 h-5 text-steel-light"></i>
+                                <span class="eyebrow text-steel-light">At a Glance</span>
+                            </div>
+                            
+                            <!-- Stats grid -->
+                            <div class="grid grid-cols-2 gap-6 mb-8">
+                                <div class="border-l border-steel/30 pl-4">
+                                    <div class="counter text-off-white font-display font-extrabold text-4xl mb-1" data-target="5">0</div>
+                                    <div class="text-steel-light text-xs leading-snug">NDT & Inspection Methods</div>
+                                </div>
+                                <div class="border-l border-steel/30 pl-4">
+                                    <div class="counter text-off-white font-display font-extrabold text-4xl mb-1" data-target="8">0</div>
+                                    <div class="text-steel-light text-xs leading-snug">Team Members</div>
+                                </div>
+                                <div class="border-l border-steel/30 pl-4">
+                                    <div class="counter text-off-white font-display font-extrabold text-4xl mb-1" data-target="4">0</div>
+                                    <div class="text-steel-light text-xs leading-snug">Level II Certified Competencies</div>
+                                </div>
+                                <div class="border-l border-steel/30 pl-4">
+                                    <div class="counter text-off-white font-display font-extrabold text-4xl mb-1" data-target="9">0</div>
+                                    <div class="text-steel-light text-xs leading-snug">Equipment Categories</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Focus areas -->
+                            <div class="pt-6 border-t border-steel/15">
+                                <div class="text-steel-light text-[10px] tracking-[0.15em] uppercase mb-4">Service Focus</div>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1.5 bg-navy-light/40 border border-steel/20 text-steel-light text-xs rounded-sm">Technical Inspection</span>
+                                    <span class="px-3 py-1.5 bg-navy-light/40 border border-steel/20 text-steel-light text-xs rounded-sm">NDT</span>
+                                    <span class="px-3 py-1.5 bg-navy-light/40 border border-steel/20 text-steel-light text-xs rounded-sm">Marine Industry</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- SERVICES SECTION -->
+    <!-- ============================================ -->
+    <section id="services" class="py-24 lg:py-32 bg-off-white border-t border-border-light relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Section header -->
+            <div class="max-w-3xl mb-16 reveal">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-px bg-steel"></div>
+                    <span class="eyebrow text-steel">Our Services</span>
+                </div>
+                <h2 class="font-display font-extrabold text-charcoal leading-[1.1] tracking-tight mb-6" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                    Inspection and testing methods for marine applications.
+                </h2>
+                <p class="text-charcoal/70 text-lg leading-relaxed">
+                    Our service capabilities cover a range of non-destructive testing and technical inspection methods suited to the requirements of the marine industry.
+                </p>
+            </div>
+            
+            <!-- Services Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Service 1: UTM -->
+                <div class="service-card bg-white border border-border-light rounded-sm p-8 reveal">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-12 h-12 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="ruler" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <span class="text-steel/40 font-display font-bold text-sm">01</span>
+                    </div>
+                    <h3 class="font-display font-bold text-charcoal text-lg mb-3 leading-snug">Ultrasonic Thickness Measurement</h3>
+                    <p class="text-charcoal/70 text-sm leading-relaxed mb-4">
+                        Measurement of material thickness using ultrasonic pulses to determine remaining wall thickness of steel plates and structural components.
+                    </p>
+                    <div class="pt-4 border-t border-border-light">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Technical Purpose</div>
+                        <p class="text-charcoal/60 text-xs leading-relaxed">Corrosion monitoring, plate thickness verification, and structural integrity assessment for marine vessels and components.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 2: UFD -->
+                <div class="service-card bg-white border border-border-light rounded-sm p-8 reveal reveal-delay-1">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-12 h-12 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="waves" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <span class="text-steel/40 font-display font-bold text-sm">02</span>
+                    </div>
+                    <h3 class="font-display font-bold text-charcoal text-lg mb-3 leading-snug">Ultrasonic Flaw Detection</h3>
+                    <p class="text-charcoal/70 text-sm leading-relaxed mb-4">
+                        Detection of internal flaws and discontinuities in welds and materials using ultrasonic beam reflection and analysis.
+                    </p>
+                    <div class="pt-4 border-t border-border-light">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Technical Purpose</div>
+                        <p class="text-charcoal/60 text-xs leading-relaxed">Identification of internal defects, lamination, cracks, and inclusions in welds, plates, and cast components.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 3: MPI -->
+                <div class="service-card bg-white border border-border-light rounded-sm p-8 reveal reveal-delay-2">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-12 h-12 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="magnet" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <span class="text-steel/40 font-display font-bold text-sm">03</span>
+                    </div>
+                    <h3 class="font-display font-bold text-charcoal text-lg mb-3 leading-snug">Magnetic Particle Inspection</h3>
+                    <p class="text-charcoal/70 text-sm leading-relaxed mb-4">
+                        Detection of surface and near-surface discontinuities in ferromagnetic materials using magnetic fields and iron particles.
+                    </p>
+                    <div class="pt-4 border-t border-border-light">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Technical Purpose</div>
+                        <p class="text-charcoal/60 text-xs leading-relaxed">Surface and near-surface crack detection in welds, structural steel, and ferromagnetic marine components.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 4: LPI -->
+                <div class="service-card bg-white border border-border-light rounded-sm p-8 reveal">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-12 h-12 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="droplet" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <span class="text-steel/40 font-display font-bold text-sm">04</span>
+                    </div>
+                    <h3 class="font-display font-bold text-charcoal text-lg mb-3 leading-snug">Liquid Penetrant Testing</h3>
+                    <p class="text-charcoal/70 text-sm leading-relaxed mb-4">
+                        Detection of surface-breaking discontinuities using liquid penetrant applied to the material surface and subsequently revealed with developer.
+                    </p>
+                    <div class="pt-4 border-t border-border-light">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Technical Purpose</div>
+                        <p class="text-charcoal/60 text-xs leading-relaxed">Surface defect detection on non-porous materials, including welds, castings, and machined components.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 5: Megger -->
+                <div class="service-card bg-white border border-border-light rounded-sm p-8 reveal reveal-delay-1">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-12 h-12 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="zap" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <span class="text-steel/40 font-display font-bold text-sm">05</span>
+                    </div>
+                    <h3 class="font-display font-bold text-charcoal text-lg mb-3 leading-snug">Megger Test / Insulation Testing</h3>
+                    <p class="text-charcoal/70 text-sm leading-relaxed mb-4">
+                        Electrical insulation resistance testing of electrical equipment, motors, and wiring systems to verify insulation integrity.
+                    </p>
+                    <div class="pt-4 border-t border-border-light">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Technical Purpose</div>
+                        <p class="text-charcoal/60 text-xs leading-relaxed">Verification of electrical insulation condition on marine electrical systems and equipment.</p>
+                    </div>
+                </div>
+                
+                <!-- CTA Card -->
+                <div class="bg-navy-deep border border-steel/20 rounded-sm p-8 flex flex-col justify-between reveal reveal-delay-2">
+                    <div>
+                        <div class="w-12 h-12 bg-navy-light rounded-sm flex items-center justify-center mb-6">
+                            <i data-lucide="message-square" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-off-white text-lg mb-3 leading-snug">Need a specific inspection scope?</h3>
+                        <p class="text-steel-light text-sm leading-relaxed">
+                            Contact us to discuss your technical inspection requirements for marine vessels, components, or systems.
+                        </p>
+                    </div>
+                    <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-steel-light hover:text-off-white text-sm font-semibold tracking-wide transition-colors">
+                        Send Inquiry
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- QUALITY & COMPETENCY SECTION -->
+    <!-- ============================================ -->
+    <section id="quality" class="py-24 lg:py-32 bg-navy-deep relative overflow-hidden">
+        <div class="absolute inset-0 tech-grid-dark opacity-30"></div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Section header -->
+            <div class="max-w-3xl mb-16 reveal">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-px bg-steel-light"></div>
+                    <span class="eyebrow text-steel-light">Quality & Competency</span>
+                </div>
+                <h2 class="font-display font-extrabold text-off-white leading-[1.1] tracking-tight mb-6" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                    The foundation of reliable inspection results.
+                </h2>
+                <p class="text-steel-light text-lg leading-relaxed">
+                    Our approach to quality is built on three pillars: certified personnel, adequate equipment, and marine industry experience.
+                </p>
+            </div>
+            
+            <!-- Three Pillars -->
+            <div class="grid md:grid-cols-3 gap-6 mb-16">
+                
+                <!-- Pillar 1 -->
+                <div class="bg-navy/60 border border-steel/15 rounded-sm p-8 reveal">
+                    <div class="w-14 h-14 bg-navy-light/40 border border-steel/20 rounded-sm flex items-center justify-center mb-6">
+                        <i data-lucide="badge-check" class="w-7 h-7 text-steel-light"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-off-white text-xl mb-4">Certified Personnel</h3>
+                    <p class="text-steel-light text-sm leading-relaxed mb-6">
+                        Our inspection team includes personnel certified at Level II and Level I in relevant NDT methods, supporting technically competent execution of inspection activities.
+                    </p>
+                    <div class="pt-6 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-3">Certification Levels</div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">Level II</span>
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">Level I</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pillar 2 -->
+                <div class="bg-navy/60 border border-steel/15 rounded-sm p-8 reveal reveal-delay-1">
+                    <div class="w-14 h-14 bg-navy-light/40 border border-steel/20 rounded-sm flex items-center justify-center mb-6">
+                        <i data-lucide="gauge" class="w-7 h-7 text-steel-light"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-off-white text-xl mb-4">Adequate Equipment</h3>
+                    <p class="text-steel-light text-sm leading-relaxed mb-6">
+                        We are equipped with appropriate NDT and inspection instruments from recognized brands, maintained and calibrated to support reliable measurement and testing.
+                    </p>
+                    <div class="pt-6 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-3">Equipment Includes</div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">UT Gauges</span>
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">Flaw Detectors</span>
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">Yokes</span>
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">Megger</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pillar 3 -->
+                <div class="bg-navy/60 border border-steel/15 rounded-sm p-8 reveal reveal-delay-2">
+                    <div class="w-14 h-14 bg-navy-light/40 border border-steel/20 rounded-sm flex items-center justify-center mb-6">
+                        <i data-lucide="anchor" class="w-7 h-7 text-steel-light"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-off-white text-xl mb-4">Marine Industry Experience</h3>
+                    <p class="text-steel-light text-sm leading-relaxed mb-6">
+                        Our service focus is the marine industry. We understand the operational context, class requirements, and documentation expectations associated with marine inspection.
+                    </p>
+                    <div class="pt-6 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-3">Industry Focus</div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">Marine</span>
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">Vessels</span>
+                            <span class="px-2.5 py-1 bg-navy-light/30 border border-steel/20 text-steel-light text-xs rounded-sm">Offshore</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PERSONNEL COMPETENCY TABLE -->
+            <div class="bg-navy/40 border border-steel/15 rounded-sm overflow-hidden reveal">
+                <div class="px-8 py-6 border-b border-steel/15 flex items-center gap-3">
+                    <i data-lucide="users" class="w-5 h-5 text-steel-light"></i>
+                    <h3 class="font-display font-bold text-off-white text-lg">Personnel Competency Summary</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead>
+                            <tr class="border-b border-steel/15">
+                                <th class="px-8 py-4 text-left text-[10px] tracking-[0.12em] uppercase text-steel font-semibold">NDT Method</th>
+                                <th class="px-8 py-4 text-left text-[10px] tracking-[0.12em] uppercase text-steel font-semibold">Level II</th>
+                                <th class="px-8 py-4 text-left text-[10px] tracking-[0.12em] uppercase text-steel font-semibold">Level I</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-steel-light">
+                            <tr class="border-b border-steel/10 hover:bg-navy-light/10 transition-colors">
+                                <td class="px-8 py-4 text-sm font-medium text-off-white">Magnetic Testing (MT)</td>
+                                <td class="px-8 py-4 text-sm">
+                                    <span class="inline-flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 bg-steel-light rounded-full"></span>
+                                        Available
+                                    </span>
+                                </td>
+                                <td class="px-8 py-4 text-sm">
+                                    <span class="inline-flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 bg-steel-light rounded-full"></span>
+                                        Available
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-steel/10 hover:bg-navy-light/10 transition-colors">
+                                <td class="px-8 py-4 text-sm font-medium text-off-white">Penetrant Testing (PT)</td>
+                                <td class="px-8 py-4 text-sm">
+                                    <span class="inline-flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 bg-steel-light rounded-full"></span>
+                                        Available
+                                    </span>
+                                </td>
+                                <td class="px-8 py-4 text-sm">
+                                    <span class="inline-flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 bg-steel-light rounded-full"></span>
+                                        Available
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-steel/10 hover:bg-navy-light/10 transition-colors">
+                                <td class="px-8 py-4 text-sm font-medium text-off-white">Ultrasonic Testing (UT)</td>
+                                <td class="px-8 py-4 text-sm">
+                                    <span class="inline-flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 bg-steel-light rounded-full"></span>
+                                        Available
+                                    </span>
+                                </td>
+                                <td class="px-8 py-4 text-sm text-steel/50">—</td>
+                            </tr>
+                            <tr class="hover:bg-navy-light/10 transition-colors">
+                                <td class="px-8 py-4 text-sm font-medium text-off-white">Ultrasonic Thickness Measurement (UTM)</td>
+                                <td class="px-8 py-4 text-sm">
+                                    <span class="inline-flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 bg-steel-light rounded-full"></span>
+                                        Available
+                                    </span>
+                                </td>
+                                <td class="px-8 py-4 text-sm text-steel/50">—</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="px-8 py-4 border-t border-steel/15 bg-navy-deep/40">
+                    <p class="text-steel-light/60 text-xs leading-relaxed">
+                        Note: Competency information is based on company profile data. Specific certification details are available upon request subject to confidentiality considerations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- EQUIPMENT SECTION -->
+    <!-- ============================================ -->
+    <section id="equipment" class="py-24 lg:py-32 bg-off-white border-t border-border-light">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Section header -->
+            <div class="max-w-3xl mb-16 reveal">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-px bg-steel"></div>
+                    <span class="eyebrow text-steel">Equipment</span>
+                </div>
+                <h2 class="font-display font-extrabold text-charcoal leading-[1.1] tracking-tight mb-6" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                    Instruments and materials for inspection work.
+                </h2>
+                <p class="text-charcoal/70 text-lg leading-relaxed">
+                    Our equipment inventory includes instruments and consumables appropriate for the NDT and inspection methods we provide. Sensitive serial numbers and internal asset identifiers are withheld for security.
+                </p>
+            </div>
+            
+            <!-- Equipment Grid -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                
+                <!-- Equipment 1 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="ruler" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">UTM</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Ultrasonic Thickness Gauge</h3>
+                    <p class="text-charcoal/60 text-sm">Cygnus 4+</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Multiple-echo ultrasonic thickness measurement instrument.</p>
+                </div>
+                
+                <!-- Equipment 2 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal reveal-delay-1">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="ruler" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">UTM</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Ultrasonic Thickness Gauge</h3>
+                    <p class="text-charcoal/60 text-sm">Time DM 5 E</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Portable ultrasonic thickness measurement device.</p>
+                </div>
+                
+                <!-- Equipment 3 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal reveal-delay-2">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="waves" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">UT</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Ultrasonic Flaw Detector</h3>
+                    <p class="text-charcoal/60 text-sm">Sonatest D-50</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Ultrasonic flaw detection instrument for weld and material inspection.</p>
+                </div>
+                
+                <!-- Equipment 4 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="waves" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">UT</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Ultrasonic Flaw Detector</h3>
+                    <p class="text-charcoal/60 text-sm">USM GO+</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Compact ultrasonic flaw detector for field inspection.</p>
+                </div>
+                
+                <!-- Equipment 5 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal reveal-delay-1">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="magnet" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">MT</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Magnetic Yoke</h3>
+                    <p class="text-charcoal/60 text-sm">Permanent Yoke</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Permanent magnetic yoke for magnetic particle inspection.</p>
+                </div>
+                
+                <!-- Equipment 6 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal reveal-delay-2">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="zap" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">Electrical</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Insulation Tester</h3>
+                    <p class="text-charcoal/60 text-sm">Megger / Insulation Tester</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Electrical insulation resistance testing instrument.</p>
+                </div>
+                
+                <!-- Equipment 7 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="sliders-horizontal" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">Calibration</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Calibration Blocks</h3>
+                    <p class="text-charcoal/60 text-sm">Reference Standards</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Calibration blocks for instrument verification and setup.</p>
+                </div>
+                
+                <!-- Equipment 8 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal reveal-delay-1">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="droplet" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">PT</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Penetrant Materials</h3>
+                    <p class="text-charcoal/60 text-sm">LPI Consumables</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Liquid penetrant testing materials including penetrant, developer, and remover.</p>
+                </div>
+                
+                <!-- Equipment 9 -->
+                <div class="bg-white border border-border-light rounded-sm p-6 reveal reveal-delay-2">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-11 h-11 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="magnet" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-off-white border border-border-light rounded-sm">MT</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1">Category</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-1">Magnetic Particle Materials</h3>
+                    <p class="text-charcoal/60 text-sm">MPI Consumables</p>
+                    <p class="text-charcoal/50 text-xs mt-2 leading-relaxed">Magnetic particle inspection materials including ink and contrast paint.</p>
+                </div>
+            </div>
+            
+            <!-- Note -->
+            <div class="mt-10 flex items-start gap-3 text-charcoal/50 text-sm reveal">
+                <i data-lucide="info" class="w-4 h-4 mt-0.5 flex-shrink-0"></i>
+                <p>For security and confidentiality reasons, equipment serial numbers, calibration certificate numbers, and internal asset identifiers are not displayed publicly. This information is available upon verified request.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- PROJECT EXPERIENCE SECTION -->
+    <!-- ============================================ -->
+    <section id="projects" class="py-24 lg:py-32 bg-off-white border-t border-border-light">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Section header -->
+            <div class="max-w-3xl mb-16 reveal">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-px bg-steel"></div>
+                    <span class="eyebrow text-steel">Project Experience</span>
+                </div>
+                <h2 class="font-display font-extrabold text-charcoal leading-[1.1] tracking-tight mb-6" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                    Selected project experience.
+                </h2>
+                <p class="text-charcoal/70 text-lg leading-relaxed">
+                    The following entries represent our project experience scope. Detailed project information is available to qualified inquiries subject to confidentiality considerations.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                
+                <!-- Project 1 -->
+                <div class="project-card bg-off-white border border-border-light rounded-sm p-6 reveal">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-10 h-10 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="ship" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-white border border-border-light rounded-sm">UTM</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-2">Project Type</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-3">Ultrasonic Thickness Measurement</h3>
+                    <p class="text-charcoal/60 text-sm leading-relaxed mb-4">Hull thickness measurement survey for marine vessel structure.</p>
+                    <div class="pt-4 border-t border-border-light space-y-2 text-xs">
+                        <div class="flex justify-between">
+                            <span class="text-steel">Client</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Vessel</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Year</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card bg-off-white border border-border-light rounded-sm p-6 reveal reveal-delay-1">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-10 h-10 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="waves" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-white border border-border-light rounded-sm">UT</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-2">Project Type</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-3">Ultrasonic Flaw Detection</h3>
+                    <p class="text-charcoal/60 text-sm leading-relaxed mb-4">Weld inspection using ultrasonic flaw detection method.</p>
+                    <div class="pt-4 border-t border-border-light space-y-2 text-xs">
+                        <div class="flex justify-between">
+                            <span class="text-steel">Client</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Vessel</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Year</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card bg-off-white border border-border-light rounded-sm p-6 reveal reveal-delay-2">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-10 h-10 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="magnet" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-white border border-border-light rounded-sm">MT</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-2">Project Type</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-3">Magnetic Particle Inspection</h3>
+                    <p class="text-charcoal/60 text-sm leading-relaxed mb-4">Surface crack detection on welds and structural components.</p>
+                    <div class="pt-4 border-t border-border-light space-y-2 text-xs">
+                        <div class="flex justify-between">
+                            <span class="text-steel">Client</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Vessel</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Year</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card bg-off-white border border-border-light rounded-sm p-6 reveal">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-10 h-10 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="droplet" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-white border border-border-light rounded-sm">PT</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-2">Project Type</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-3">Liquid Penetrant Testing</h3>
+                    <p class="text-charcoal/60 text-sm leading-relaxed mb-4">Surface defect detection on non-porous materials and welds.</p>
+                    <div class="pt-4 border-t border-border-light space-y-2 text-xs">
+                        <div class="flex justify-between">
+                            <span class="text-steel">Client</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Vessel</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Year</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card bg-off-white border border-border-light rounded-sm p-6 reveal reveal-delay-1">
+                    <div class="flex items-center justify-between mb-5">
+                        <div class="w-10 h-10 bg-navy-deep rounded-sm flex items-center justify-center">
+                            <i data-lucide="zap" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <span class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold px-2.5 py-1 bg-white border border-border-light rounded-sm">Electrical</span>
+                    </div>
+                    <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-2">Project Type</div>
+                    <h3 class="font-display font-bold text-charcoal text-base mb-3">Megger / Insulation Testing</h3>
+                    <p class="text-charcoal/60 text-sm leading-relaxed mb-4">Electrical insulation resistance testing for marine electrical systems.</p>
+                    <div class="pt-4 border-t border-border-light space-y-2 text-xs">
+                        <div class="flex justify-between">
+                            <span class="text-steel">Client</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Vessel</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-steel">Year</span>
+                            <span class="text-charcoal/70 font-medium">—</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6: CTA -->
+                <div class="bg-navy-deep border border-steel/20 rounded-sm p-6 flex flex-col justify-between reveal reveal-delay-2">
+                    <div>
+                        <div class="w-10 h-10 bg-navy-light/40 border border-steel/20 rounded-sm flex items-center justify-center mb-5">
+                            <i data-lucide="file-text" class="w-5 h-5 text-steel-light"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-off-white text-base mb-3">Request Project Reference</h3>
+                        <p class="text-steel-light text-sm leading-relaxed">
+                            Detailed project references are available to qualified inquiries subject to confidentiality considerations.
+                        </p>
+                    </div>
+                    <a href="#contact" class="mt-5 inline-flex items-center gap-2 text-steel-light hover:text-off-white text-sm font-semibold tracking-wide transition-colors">
+                        Contact Us
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Confidentiality note -->
+            <div class="mt-10 flex items-start gap-3 text-charcoal/50 text-sm reveal">
+                <i data-lucide="lock" class="w-4 h-4 mt-0.5 flex-shrink-0"></i>
+                <p>Specific client names, vessel names, and project dates are withheld for confidentiality. This information is available upon verified request to qualified parties.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- OUR PEOPLE SECTION -->
+    <!-- ============================================ -->
+    <section id="people" class="py-24 lg:py-32 bg-navy-deep relative overflow-hidden">
+        <div class="absolute inset-0 tech-grid-dark opacity-30"></div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Section header -->
+            <div class="max-w-3xl mb-16 reveal">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-px bg-steel-light"></div>
+                    <span class="eyebrow text-steel-light">Our People</span>
+                </div>
+                <h2 class="font-display font-extrabold text-off-white leading-[1.1] tracking-tight mb-6" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                    The team behind our inspection services.
+                </h2>
+                <p class="text-steel-light text-lg leading-relaxed">
+                    Our personnel bring together management, coordination, inspection, and support functions to deliver complete service to our customers.
+                </p>
+            </div>
+            
+            <!-- Team Grid -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                
+                <!-- Director -->
+                <div class="bg-navy/50 border border-steel/15 rounded-sm p-6 reveal">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="monogram w-14 h-14 bg-navy-light/40 border border-steel/25 rounded-sm text-off-white text-lg">DS</div>
+                        <div>
+                            <h3 class="font-display font-bold text-off-white text-base leading-tight">Dede Ahmad Syaifudin</h3>
+                            <p class="text-steel-light text-xs mt-1">Director</p>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Function</div>
+                        <p class="text-steel-light text-xs leading-relaxed">Leadership & Direction</p>
+                    </div>
+                </div>
+                
+                <!-- Head of PT PSI -->
+                <div class="bg-navy/50 border border-steel/15 rounded-sm p-6 reveal reveal-delay-1">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="monogram w-14 h-14 bg-navy-light/40 border border-steel/25 rounded-sm text-off-white text-lg">AS</div>
+                        <div>
+                            <h3 class="font-display font-bold text-off-white text-base leading-tight">Andi Sophian</h3>
+                            <p class="text-steel-light text-xs mt-1">Head of PT. PSI</p>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Function</div>
+                        <p class="text-steel-light text-xs leading-relaxed">Operational Management</p>
+                    </div>
+                </div>
+                
+                <!-- Deputy -->
+                <div class="bg-navy/50 border border-steel/15 rounded-sm p-6 reveal reveal-delay-2">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="monogram w-14 h-14 bg-navy-light/40 border border-steel/25 rounded-sm text-off-white text-lg">OW</div>
+                        <div>
+                            <h3 class="font-display font-bold text-off-white text-base leading-tight">Ogi Widana Rosidin</h3>
+                            <p class="text-steel-light text-xs mt-1">Deputy</p>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Function</div>
+                        <p class="text-steel-light text-xs leading-relaxed">Deputy Operations</p>
+                    </div>
+                </div>
+                
+                <!-- Coordinator Inspector -->
+                <div class="bg-navy/50 border border-steel/15 rounded-sm p-6 reveal reveal-delay-3">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="monogram w-14 h-14 bg-navy-light/40 border border-steel/25 rounded-sm text-off-white text-lg">TR</div>
+                        <div>
+                            <h3 class="font-display font-bold text-off-white text-base leading-tight">Taufiq Rahman</h3>
+                            <p class="text-steel-light text-xs mt-1">Coordinator Inspector</p>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Function</div>
+                        <p class="text-steel-light text-xs leading-relaxed">Inspection Coordination</p>
+                    </div>
+                </div>
+                
+                <!-- NDT Inspector 1 -->
+                <div class="bg-navy/50 border border-steel/15 rounded-sm p-6 reveal">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="monogram w-14 h-14 bg-navy-light/40 border border-steel/25 rounded-sm text-off-white text-lg">MD</div>
+                        <div>
+                            <h3 class="font-display font-bold text-off-white text-base leading-tight">Moch Dawud Syaifudin</h3>
+                            <p class="text-steel-light text-xs mt-1">NDT Inspector</p>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Function</div>
+                        <p class="text-steel-light text-xs leading-relaxed">Non-Destructive Testing</p>
+                    </div>
+                </div>
+                
+                <!-- NDT Inspector 2 -->
+                <div class="bg-navy/50 border border-steel/15 rounded-sm p-6 reveal reveal-delay-1">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="monogram w-14 h-14 bg-navy-light/40 border border-steel/25 rounded-sm text-off-white text-lg">HH</div>
+                        <div>
+                            <h3 class="font-display font-bold text-off-white text-base leading-tight">Hari Hartono</h3>
+                            <p class="text-steel-light text-xs mt-1">NDT Inspector</p>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Function</div>
+                        <p class="text-steel-light text-xs leading-relaxed">Non-Destructive Testing</p>
+                    </div>
+                </div>
+                
+                <!-- Finance -->
+                <div class="bg-navy/50 border border-steel/15 rounded-sm p-6 reveal reveal-delay-2">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="monogram w-14 h-14 bg-navy-light/40 border border-steel/25 rounded-sm text-off-white text-lg">SK</div>
+                        <div>
+                            <h3 class="font-display font-bold text-off-white text-base leading-tight">Stevanus Kurniawan</h3>
+                            <p class="text-steel-light text-xs mt-1">Finance</p>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Function</div>
+                        <p class="text-steel-light text-xs leading-relaxed">Financial Administration</p>
+                    </div>
+                </div>
+                
+                <!-- Document & Data Control -->
+                <div class="bg-navy/50 border border-steel/15 rounded-sm p-6 reveal reveal-delay-3">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="monogram w-14 h-14 bg-navy-light/40 border border-steel/25 rounded-sm text-off-white text-lg">SE</div>
+                        <div>
+                            <h3 class="font-display font-bold text-off-white text-base leading-tight">Soma Edy Katampanan</h3>
+                            <p class="text-steel-light text-xs mt-1">Document & Data Control</p>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-steel/15">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Function</div>
+                        <p class="text-steel-light text-xs leading-relaxed">Documentation & Records</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Update note -->
+            <div class="mt-10 flex items-start gap-3 text-steel-light/50 text-sm reveal">
+                <i data-lucide="info" class="w-4 h-4 mt-0.5 flex-shrink-0"></i>
+                <p>Team information is based on company profile data and may be updated periodically. For current organizational information, please contact us directly.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- CERTIFICATION & APPROVAL SECTION -->
+    <!-- ============================================ -->
+    <section id="certification" class="py-24 lg:py-32 bg-off-white border-t border-border-light">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Section header -->
+            <div class="max-w-3xl mb-16 reveal">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-px bg-steel"></div>
+                    <span class="eyebrow text-steel">Certification & Approval</span>
+                </div>
+                <h2 class="font-display font-extrabold text-charcoal leading-[1.1] tracking-tight mb-6" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                    Certification and company approval.
+                </h2>
+                <p class="text-charcoal/70 text-lg leading-relaxed">
+                    The following certification and approval information is based on company profile documentation. Additional certification details are available upon verified request.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Certificate 1: BKI -->
+                <div class="doc-card bg-white border border-border-light rounded-sm overflow-hidden reveal">
+                    <!-- Document preview -->
+                    <div class="aspect-[4/3] bg-navy-deep relative overflow-hidden tech-grid-dark">
+                        <!-- INSTRUCTION: To display your actual certificate image, replace the code inside this div with:
+                             <img src="path/to/sertifikat-bki.jpg" alt="Sertifikat BKI PT Pintek Sukses Indonesia" class="absolute inset-0 w-full h-full object-cover">
+                        -->
+                        <div class="absolute inset-0 flex flex-col items-center justify-center p-8">
+                            <!-- Document icon -->
+                            <div class="w-20 h-24 bg-navy-light/30 border border-steel/25 rounded-sm flex flex-col items-center justify-center mb-4 relative">
+                                <i data-lucide="file-check-2" class="w-8 h-8 text-steel-light mb-2"></i>
+                                <div class="absolute top-2 right-2 w-2 h-2 bg-steel rounded-full pulse-pt"></div>
+                            </div>
+                            <div class="text-steel-light text-[10px] tracking-[0.15em] uppercase font-semibold text-center">Certificate of Approval</div>
+                            <div class="text-off-white font-display font-bold text-sm mt-1">Company</div>
+                        </div>
+                        <!-- Corner brackets -->
+                        <div class="absolute top-3 left-3 w-5 h-5 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-3 right-3 w-5 h-5 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-3 left-3 w-5 h-5 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-3 right-3 w-5 h-5 border-r border-b border-steel/30"></div>
+                    </div>
+                    <!-- Document info -->
+                    <div class="p-6">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-2">Certificate</div>
+                        <h3 class="font-display font-bold text-charcoal text-base mb-3">Certificate of Approval — Company</h3>
+                        <div class="space-y-2.5 text-sm">
+                            <div class="flex justify-between items-center">
+                                <span class="text-steel text-xs">Issuing Organization</span>
+                                <span class="text-charcoal/80 font-medium text-sm">BKI</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-steel text-xs">Certificate Type</span>
+                                <span class="text-charcoal/80 font-medium text-sm">Company Approval</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-steel text-xs">Validity</span>
+                                <span class="text-charcoal/70 font-medium text-sm">—</span>
+                            </div>
+                        </div>
+                        <button class="mt-5 w-full px-4 py-2.5 bg-off-white border border-border-light text-steel text-xs font-semibold tracking-[0.12em] uppercase rounded-sm hover:bg-navy-deep hover:text-off-white hover:border-navy-deep transition-all flex items-center justify-center gap-2" onclick="showCertNotice()">
+                            <i data-lucide="eye" class="w-3.5 h-3.5"></i>
+                            View Document
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Additional certification placeholder -->
+                <div class="doc-card bg-off-white border border-dashed border-border-light rounded-sm overflow-hidden reveal reveal-delay-1">
+                    <div class="aspect-[4/3] bg-off-white relative flex items-center justify-center">
+                        <div class="text-center">
+                            <i data-lucide="file-plus" class="w-10 h-10 text-steel/30 mx-auto mb-3"></i>
+                            <p class="text-steel/50 text-xs">Additional certifications can be added here</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel/50 font-semibold mb-2">Placeholder</div>
+                        <h3 class="font-display font-bold text-charcoal/50 text-base mb-3">Additional Certification</h3>
+                        <p class="text-charcoal/40 text-sm leading-relaxed">
+                            This card is reserved for future certification or approval documents. Update with actual certification information when available.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Additional certification placeholder -->
+                <div class="doc-card bg-off-white border border-dashed border-border-light rounded-sm overflow-hidden reveal reveal-delay-2">
+                    <div class="aspect-[4/3] bg-off-white relative flex items-center justify-center">
+                        <div class="text-center">
+                            <i data-lucide="file-plus" class="w-10 h-10 text-steel/30 mx-auto mb-3"></i>
+                            <p class="text-steel/50 text-xs">Additional certifications can be added here</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-[10px] tracking-[0.12em] uppercase text-steel/50 font-semibold mb-2">Placeholder</div>
+                        <h3 class="font-display font-bold text-charcoal/50 text-base mb-3">Additional Certification</h3>
+                        <p class="text-charcoal/40 text-sm leading-relaxed">
+                            This card is reserved for future certification or approval documents. Update with actual certification information when available.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Note -->
+            <div class="mt-10 flex items-start gap-3 text-charcoal/50 text-sm reveal">
+                <i data-lucide="info" class="w-4 h-4 mt-0.5 flex-shrink-0"></i>
+                <p>Certificate numbers, validity dates, and detailed certification scope are available upon verified request. For specific certification verification, please contact us directly.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- GALLERY SECTION -->
+    <!-- ============================================ -->
+    <section id="gallery" class="py-24 lg:py-32 bg-off-white border-t border-border-light">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Section header -->
+            <div class="max-w-3xl mb-16 reveal">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-px bg-steel"></div>
+                    <span class="eyebrow text-steel">Gallery</span>
+                </div>
+                <h2 class="font-display font-extrabold text-charcoal leading-[1.1] tracking-tight mb-6" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                    Inspection activities and equipment in the field.
+                </h2>
+                <p class="text-charcoal/70 text-lg leading-relaxed">
+                    A visual overview of our inspection work, equipment, and technical activities. Replace placeholders with actual company photographs when available.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item aspect-square bg-navy-deep rounded-sm border border-steel/15 reveal">
+                    <div class="placeholder-img w-full h-full flex flex-col items-center justify-center p-6 relative tech-grid-dark">
+                        <i data-lucide="ruler" class="w-8 h-8 text-steel/40 mb-3"></i>
+                        <span class="text-steel-light/60 text-[10px] tracking-[0.12em] uppercase font-semibold text-center">Inspection</span>
+                        <span class="text-steel-light/40 text-[9px] mt-1 text-center">UTM Activity</span>
+                        <div class="absolute top-2 left-2 w-4 h-4 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-2 right-2 w-4 h-4 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-2 left-2 w-4 h-4 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-2 right-2 w-4 h-4 border-r border-b border-steel/30"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item aspect-square bg-navy-deep rounded-sm border border-steel/15 reveal reveal-delay-1">
+                    <div class="placeholder-img w-full h-full flex flex-col items-center justify-center p-6 relative tech-grid-dark">
+                        <i data-lucide="waves" class="w-8 h-8 text-steel/40 mb-3"></i>
+                        <span class="text-steel-light/60 text-[10px] tracking-[0.12em] uppercase font-semibold text-center">NDT Equipment</span>
+                        <span class="text-steel-light/40 text-[9px] mt-1 text-center">Ultrasonic Flaw Detector</span>
+                        <div class="absolute top-2 left-2 w-4 h-4 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-2 right-2 w-4 h-4 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-2 left-2 w-4 h-4 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-2 right-2 w-4 h-4 border-r border-b border-steel/30"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item aspect-square bg-navy-deep rounded-sm border border-steel/15 reveal reveal-delay-2">
+                    <div class="placeholder-img w-full h-full flex flex-col items-center justify-center p-6 relative tech-grid-dark">
+                        <i data-lucide="ship" class="w-8 h-8 text-steel/40 mb-3"></i>
+                        <span class="text-steel-light/60 text-[10px] tracking-[0.12em] uppercase font-semibold text-center">Marine</span>
+                        <span class="text-steel-light/40 text-[9px] mt-1 text-center">Vessel Inspection</span>
+                        <div class="absolute top-2 left-2 w-4 h-4 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-2 right-2 w-4 h-4 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-2 left-2 w-4 h-4 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-2 right-2 w-4 h-4 border-r border-b border-steel/30"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item aspect-square bg-navy-deep rounded-sm border border-steel/15 reveal reveal-delay-3">
+                    <div class="placeholder-img w-full h-full flex flex-col items-center justify-center p-6 relative tech-grid-dark">
+                        <i data-lucide="magnet" class="w-8 h-8 text-steel/40 mb-3"></i>
+                        <span class="text-steel-light/60 text-[10px] tracking-[0.12em] uppercase font-semibold text-center">Technical Activities</span>
+                        <span class="text-steel-light/40 text-[9px] mt-1 text-center">Magnetic Particle Inspection</span>
+                        <div class="absolute top-2 left-2 w-4 h-4 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-2 right-2 w-4 h-4 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-2 left-2 w-4 h-4 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-2 right-2 w-4 h-4 border-r border-b border-steel/30"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item aspect-square bg-navy-deep rounded-sm border border-steel/15 reveal">
+                    <div class="placeholder-img w-full h-full flex flex-col items-center justify-center p-6 relative tech-grid-dark">
+                        <i data-lucide="droplet" class="w-8 h-8 text-steel/40 mb-3"></i>
+                        <span class="text-steel-light/60 text-[10px] tracking-[0.12em] uppercase font-semibold text-center">Technical Activities</span>
+                        <span class="text-steel-light/40 text-[9px] mt-1 text-center">Liquid Penetrant Testing</span>
+                        <div class="absolute top-2 left-2 w-4 h-4 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-2 right-2 w-4 h-4 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-2 left-2 w-4 h-4 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-2 right-2 w-4 h-4 border-r border-b border-steel/30"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item aspect-square bg-navy-deep rounded-sm border border-steel/15 reveal reveal-delay-1">
+                    <div class="placeholder-img w-full h-full flex flex-col items-center justify-center p-6 relative tech-grid-dark">
+                        <i data-lucide="users" class="w-8 h-8 text-steel/40 mb-3"></i>
+                        <span class="text-steel-light/60 text-[10px] tracking-[0.12em] uppercase font-semibold text-center">Personnel</span>
+                        <span class="text-steel-light/40 text-[9px] mt-1 text-center">Inspection Team</span>
+                        <div class="absolute top-2 left-2 w-4 h-4 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-2 right-2 w-4 h-4 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-2 left-2 w-4 h-4 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-2 right-2 w-4 h-4 border-r border-b border-steel/30"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 7 -->
+                <div class="gallery-item aspect-square bg-navy-deep rounded-sm border border-steel/15 reveal reveal-delay-2">
+                    <div class="placeholder-img w-full h-full flex flex-col items-center justify-center p-6 relative tech-grid-dark">
+                        <i data-lucide="gauge" class="w-8 h-8 text-steel/40 mb-3"></i>
+                        <span class="text-steel-light/60 text-[10px] tracking-[0.12em] uppercase font-semibold text-center">NDT Equipment</span>
+                        <span class="text-steel-light/40 text-[9px] mt-1 text-center">Thickness Gauge</span>
+                        <div class="absolute top-2 left-2 w-4 h-4 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-2 right-2 w-4 h-4 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-2 left-2 w-4 h-4 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-2 right-2 w-4 h-4 border-r border-b border-steel/30"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 8 -->
+                <div class="gallery-item aspect-square bg-navy-deep rounded-sm border border-steel/15 reveal reveal-delay-3">
+                    <div class="placeholder-img w-full h-full flex flex-col items-center justify-center p-6 relative tech-grid-dark">
+                        <i data-lucide="zap" class="w-8 h-8 text-steel/40 mb-3"></i>
+                        <span class="text-steel-light/60 text-[10px] tracking-[0.12em] uppercase font-semibold text-center">Technical Activities</span>
+                        <span class="text-steel-light/40 text-[9px] mt-1 text-center">Megger / Insulation Test</span>
+                        <div class="absolute top-2 left-2 w-4 h-4 border-l border-t border-steel/30"></div>
+                        <div class="absolute top-2 right-2 w-4 h-4 border-r border-t border-steel/30"></div>
+                        <div class="absolute bottom-2 left-2 w-4 h-4 border-l border-b border-steel/30"></div>
+                        <div class="absolute bottom-2 right-2 w-4 h-4 border-r border-b border-steel/30"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Note -->
+            <div class="mt-10 flex items-start gap-3 text-charcoal/50 text-sm reveal">
+                <i data-lucide="image" class="w-4 h-4 mt-0.5 flex-shrink-0"></i>
+                <p>Gallery items shown are placeholders. Replace with actual company photographs when available. To add photos, replace the placeholder divs with <code class="text-steel bg-off-white px-1.5 py-0.5 rounded text-xs">&lt;img src="path/to/image.jpg" alt="Description"&gt;</code> tags.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- CONTACT SECTION -->
+    <!-- ============================================ -->
+    <section id="contact" class="py-24 lg:py-32 bg-navy-deep relative overflow-hidden">
+        <div class="absolute inset-0 tech-grid-dark opacity-30"></div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Section header -->
+            <div class="max-w-3xl mb-16 reveal">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-px bg-steel-light"></div>
+                    <span class="eyebrow text-steel-light">Contact Us</span>
+                </div>
+                <h2 class="font-display font-extrabold text-off-white leading-[1.1] tracking-tight mb-6" style="font-size: clamp(2rem, 3.5vw, 3rem);">
+                    Let's discuss your inspection requirements.
+                </h2>
+                <p class="text-steel-light text-lg leading-relaxed">
+                    Send us your inquiry and our team will respond to discuss your technical inspection and NDT needs.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-12 gap-12">
+                
+                <!-- LEFT: Contact Form -->
+                <div class="lg:col-span-7 reveal">
+                    <div class="bg-navy/50 border border-steel/15 rounded-sm p-8 lg:p-10">
+                        <form id="contact-form" novalidate>
+                            <div class="grid sm:grid-cols-2 gap-5 mb-5">
+                                <!-- Name -->
+                                <div>
+                                    <label for="name" class="block text-steel-light text-[11px] tracking-[0.12em] uppercase font-semibold mb-2">Name <span class="text-steel">*</span></label>
+                                    <input type="text" id="name" name="name" required class="form-input w-full px-4 py-3 text-off-white text-sm rounded-sm placeholder-steel/40" placeholder="Your full name" style="background: rgba(7, 26, 43, 0.6); border-color: rgba(139, 163, 184, 0.2);">
+                                </div>
+                                <!-- Company -->
+                                <div>
+                                    <label for="company" class="block text-steel-light text-[11px] tracking-[0.12em] uppercase font-semibold mb-2">Company</label>
+                                    <input type="text" id="company" name="company" class="form-input w-full px-4 py-3 text-off-white text-sm rounded-sm placeholder-steel/40" placeholder="Company name" style="background: rgba(7, 26, 43, 0.6); border-color: rgba(139, 163, 184, 0.2);">
+                                </div>
+                            </div>
+                            
+                            <div class="grid sm:grid-cols-2 gap-5 mb-5">
+                                <!-- Email -->
+                                <div>
+                                    <label for="email" class="block text-steel-light text-[11px] tracking-[0.12em] uppercase font-semibold mb-2">Email <span class="text-steel">*</span></label>
+                                    <input type="email" id="email" name="email" required class="form-input w-full px-4 py-3 text-off-white text-sm rounded-sm placeholder-steel/40" placeholder="email@company.com" style="background: rgba(7, 26, 43, 0.6); border-color: rgba(139, 163, 184, 0.2);">
+                                </div>
+                                <!-- Phone -->
+                                <div>
+                                    <label for="phone" class="block text-steel-light text-[11px] tracking-[0.12em] uppercase font-semibold mb-2">Phone</label>
+                                    <input type="tel" id="phone" name="phone" class="form-input w-full px-4 py-3 text-off-white text-sm rounded-sm placeholder-steel/40" placeholder="+62 ..." style="background: rgba(7, 26, 43, 0.6); border-color: rgba(139, 163, 184, 0.2);">
+                                </div>
+                            </div>
+                            
+                            <!-- Service Required -->
+                            <div class="mb-5">
+                                <label for="service" class="block text-steel-light text-[11px] tracking-[0.12em] uppercase font-semibold mb-2">Service Required <span class="text-steel">*</span></label>
+                                <select id="service" name="service" required class="form-input w-full px-4 py-3 text-off-white text-sm rounded-sm" style="background: rgba(7, 26, 43, 0.6); border-color: rgba(139, 163, 184, 0.2);">
+                                    <option value="" style="background: #071A2B;">Select a service...</option>
+                                    <option value="utm" style="background: #071A2B;">Ultrasonic Thickness Measurement</option>
+                                    <option value="ufd" style="background: #071A2B;">Ultrasonic Flaw Detection</option>
+                                    <option value="mpi" style="background: #071A2B;">Magnetic Particle Inspection</option>
+                                    <option value="lpi" style="background: #071A2B;">Liquid Penetrant Testing</option>
+                                    <option value="megger" style="background: #071A2B;">Megger / Insulation Testing</option>
+                                    <option value="other" style="background: #071A2B;">Other / Multiple Services</option>
+                                </select>
+                            </div>
+                            
+                            <!-- Message -->
+                            <div class="mb-6">
+                                <label for="message" class="block text-steel-light text-[11px] tracking-[0.12em] uppercase font-semibold mb-2">Message <span class="text-steel">*</span></label>
+                                <textarea id="message" name="message" required rows="5" class="form-input w-full px-4 py-3 text-off-white text-sm rounded-sm placeholder-steel/40 resize-none" placeholder="Describe your inspection requirements, vessel details, location, and timeline..." style="background: rgba(7, 26, 43, 0.6); border-color: rgba(139, 163, 184, 0.2);"></textarea>
+                            </div>
+                            
+                            <!-- Submit -->
+                            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                                <button type="submit" class="btn-steel px-8 py-4 text-[12px] font-semibold tracking-[0.14em] uppercase rounded-sm inline-flex items-center justify-center gap-2.5">
+                                    Send Inquiry
+                                    <i data-lucide="send" class="w-4 h-4"></i>
+                                </button>
+                                <p class="text-steel-light/50 text-xs leading-relaxed">
+                                    By submitting, you agree to be contacted regarding your inquiry.
+                                </p>
+                            </div>
+                            
+                            <!-- Success message (hidden by default) -->
+                            <div id="form-success" class="hidden mt-6 p-4 bg-navy-light/30 border border-steel/25 rounded-sm flex items-start gap-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-steel-light flex-shrink-0 mt-0.5"></i>
+                                <div>
+                                    <p class="text-off-white text-sm font-semibold">Thank you. Your inquiry has been received.</p>
+                                    <p class="text-steel-light text-xs mt-1">Our team will contact you shortly to discuss your inspection requirements.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Error message (hidden by default) -->
+                            <div id="form-error" class="hidden mt-6 p-4 bg-red-900/20 border border-red-500/25 rounded-sm flex items-start gap-3">
+                                <i data-lucide="alert-circle" class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5"></i>
+                                <div>
+                                    <p class="text-red-300 text-sm font-semibold">Please correct the highlighted fields.</p>
+                                    <p class="text-red-300/60 text-xs mt-1" id="form-error-detail">Some required fields are missing or invalid.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- RIGHT: Contact Info + Map -->
+                <div class="lg:col-span-5 reveal reveal-delay-2">
+                    
+                    <!-- Company info -->
+                    <div class="bg-navy/50 border border-steel/15 rounded-sm p-8 mb-6">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 bg-navy-light/40 border border-steel/25 rounded-sm flex items-center justify-center">
+                                <i data-lucide="building-2" class="w-5 h-5 text-steel-light"></i>
+                            </div>
+                            <h3 class="font-display font-bold text-off-white text-base">Head Office</h3>
+                        </div>
+                        
+                        <div class="space-y-5">
+                            <!-- Company name -->
+                            <div>
+                                <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Company</div>
+                                <p class="text-off-white font-display font-semibold text-sm">PT. PINTEK SUKSES INDONESIA</p>
+                            </div>
+                            
+                            <!-- Address -->
+                            <div>
+                                <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Address</div>
+                                <p class="text-steel-light text-sm leading-relaxed">
+                                    Gedung Menara Satu Lantai 6 Unit 603<br>
+                                    Jl. Boulevard Kelapa Gading LA3 No.1<br>
+                                    Jakarta Utara 14240
+                                </p>
+                            </div>
+                            
+                            <!-- Email -->
+                            <div>
+                                <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Email</div>
+                                <p class="text-steel-light text-sm">Pinteksuksesindonesia@gmail.com</p>
+                            </div>
+                            
+                            <!-- Phone -->
+                            <div>
+                                <div class="text-[10px] tracking-[0.12em] uppercase text-steel font-semibold mb-1.5">Phone</div>
+                                <p class="text-steel-light text-sm">082254749221 (Pak Taufik)</p>
+                                <p class="text-steel-light text-sm">085191974874 (Pak Daud)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Map -->
+                    <div class="bg-navy/50 border border-steel/15 rounded-sm overflow-hidden">
+                        <div class="px-6 py-4 border-b border-steel/15 flex items-center gap-3">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-steel-light"></i>
+                            <span class="text-steel-light text-[11px] tracking-[0.12em] uppercase font-semibold">Location</span>
+                        </div>
+                        <div class="aspect-[4/3] bg-navy-deep">
+                            <iframe
+                                src="https://www.google.com/maps?q=Gedung+Menara+Satu+Jl+Boulevard+Kelapa+Gading+LA3+No+1+Jakarta+Utara+14240&output=embed"
+                                width="100%"
+                                height="100%"
+                                style="border:0; filter: grayscale(0.3) brightness(0.9);"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="PT. Pintek Sukses Indonesia Office Location">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================ -->
+    <footer class="bg-navy-deep border-t border-steel/15 relative">
+        <div class="absolute inset-0 tech-grid-dark opacity-20"></div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-16">
+            <div class="grid lg:grid-cols-12 gap-12">
+                
+                <!-- Company -->
+                <div class="lg:col-span-4">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 bg-navy-light border border-steel/30 flex items-center justify-center rounded-sm">
+                            <span class="text-off-white font-display font-extrabold text-sm">PSI</span>
+                        </div>
+                        <div>
+                            <div class="text-off-white font-display font-bold text-sm tracking-wide">PINTEK SUKSES</div>
+                            <div class="text-steel-light text-[10px] tracking-[0.2em] uppercase font-medium">Indonesia</div>
+                        </div>
+                    </div>
+                    <p class="text-steel-light text-sm leading-relaxed mb-6 max-w-sm">
+                        PT. Pintek Sukses Indonesia — Technical Inspection and Non-Destructive Testing services for the Marine Industry.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-navy-light/30 border border-steel/15 text-steel-light text-xs rounded-sm">Technical Inspection</span>
+                        <span class="px-3 py-1.5 bg-navy-light/30 border border-steel/15 text-steel-light text-xs rounded-sm">NDT</span>
+                        <span class="px-3 py-1.5 bg-navy-light/30 border border-steel/15 text-steel-light text-xs rounded-sm">Marine Industry</span>
+                    </div>
+                </div>
+                
+                <!-- Navigation -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-off-white font-display font-semibold text-sm mb-5">Navigation</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-steel-light hover:text-off-white text-sm transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-steel-light hover:text-off-white text-sm transition-colors">About</a></li>
+                        <li><a href="#services" class="text-steel-light hover:text-off-white text-sm transition-colors">Services</a></li>
+                        <li><a href="#quality" class="text-steel-light hover:text-off-white text-sm transition-colors">Quality</a></li>
+                        <li><a href="#equipment" class="text-steel-light hover:text-off-white text-sm transition-colors">Equipment</a></li>
+                        <li><a href="#projects" class="text-steel-light hover:text-off-white text-sm transition-colors">Projects</a></li>
+                    </ul>
+                </div>
+                
+                <!-- More Navigation -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-off-white font-display font-semibold text-sm mb-5">More</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#people" class="text-steel-light hover:text-off-white text-sm transition-colors">Our People</a></li>
+                        <li><a href="#certification" class="text-steel-light hover:text-off-white text-sm transition-colors">Certification</a></li>
+                        <li><a href="#gallery" class="text-steel-light hover:text-off-white text-sm transition-colors">Gallery</a></li>
+                        <li><a href="#contact" class="text-steel-light hover:text-off-white text-sm transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-off-white font-display font-semibold text-sm mb-5">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#services" class="text-steel-light hover:text-off-white text-sm transition-colors">UTM</a></li>
+                        <li><a href="#services" class="text-steel-light hover:text-off-white text-sm transition-colors">Ultrasonic Flaw Detection</a></li>
+                        <li><a href="#services" class="text-steel-light hover:text-off-white text-sm transition-colors">Magnetic Particle</a></li>
+                        <li><a href="#services" class="text-steel-light hover:text-off-white text-sm transition-colors">Liquid Penetrant</a></li>
+                        <li><a href="#services" class="text-steel-light hover:text-off-white text-sm transition-colors">Megger Test</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-off-white font-display font-semibold text-sm mb-5">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="text-steel-light text-sm leading-relaxed">
+                            Gedung Menara Satu Lt. 6 Unit 603<br>
+                            Jl. Boulevard Kelapa Gading LA3 No.1<br>
+                            Jakarta Utara 14240
+                        </li>
+                        <li class="text-steel-light text-sm mt-2">Pinteksuksesindonesia@gmail.com</li>
+                        <li class="text-steel-light text-sm">082254749221 (Pak Taufik)</li>
+                        <li class="text-steel-light text-sm">085191974874 (Pak Daud)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Bottom bar -->
+            <div class="mt-16 pt-8 border-t border-steel/15 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-steel-light/60 text-xs">
+                    © <span id="current-year">2025</span> PT. Pintek Sukses Indonesia. All rights reserved.
+                </p>
+                <div class="flex items-center gap-6">
+                    <p class="text-steel-light/40 text-xs">Technical Inspection · NDT · Marine Industry</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- BACK TO TOP -->
+    <button id="back-to-top" class="back-to-top fixed bottom-8 right-8 z-40 w-12 h-12 bg-navy-deep border border-steel/25 text-off-white rounded-sm flex items-center justify-center hover:bg-navy transition-all" aria-label="Back to top">
+        <i data-lucide="arrow-up" class="w-5 h-5"></i>
+    </button>
+
+
+    <!-- ============================================ -->
+    <!-- JAVASCRIPT -->
+    <!-- ============================================ -->
+    <script>
+        // ============================================
+        // CENTRALIZED CONFIGURATION
+        // ============================================
+        const CONFIG = {
+            company: {
+                name: "PT. PINTEK SUKSES INDONESIA",
+                shortName: "PT. PSI",
+                tagline: "Technical Inspection & Non-Destructive Testing",
+                industry: "Marine Industry",
+                address: {
+                    building: "Gedung Menara Satu Lantai 6 Unit 603",
+                    street: "Jl. Boulevard Kelapa Gading LA3 No.1",
+                    city: "Jakarta Utara",
+                    postalCode: "14240"
+                },
+                email: "Pinteksuksesindonesia@gmail.com",
+                phones: [
+                    { name: "Pak Taufik", number: "082254749221" },
+                    { name: "Pak Daud", number: "085191974874" }
+                ]
+            },
+            services: [
+                { id: "utm", name: "Ultrasonic Thickness Measurement", code: "01" },
+                { id: "ufd", name: "Ultrasonic Flaw Detection", code: "02" },
+                { id: "mpi", name: "Magnetic Particle Inspection", code: "03" },
+                { id: "lpi", name: "Liquid Penetrant Testing", code: "04" },
+                { id: "megger", name: "Megger Test / Insulation Testing", code: "05" }
+            ],
+            team: [
+                { name: "Dede Ahmad Syaifudin", role: "Director", initials: "DS" },
+                { name: "Andi Sophian", role: "Head of PT. PSI", initials: "AS" },
+                { name: "Ogi Widana Rosidin", role: "Deputy", initials: "OW" },
+                { name: "Taufiq Rahman", role: "Coordinator Inspector", initials: "TR" },
+                { name: "Moch Dawud Syaifudin", role: "NDT Inspector", initials: "MD" },
+                { name: "Hari Hartono", role: "NDT Inspector", initials: "HH" },
+                { name: "Stevanus Kurniawan", role: "Finance", initials: "SK" },
+                { name: "Soma Edy Katampanan", role: "Document & Data Control", initials: "SE" }
+            ],
+            certifications: [
+                { type: "Certificate of Approval — Company", issuer: "BKI" }
+            ],
+            formEndpoint: null 
+        };
+        
+        // ============================================
+        // INITIALIZE LUCIDE ICONS
+        // ============================================
+        lucide.createIcons();
+        
+        // ============================================
+        // NAVIGATION: Scroll behavior
+        // ============================================
+        const navbar = document.getElementById('navbar');
+        const navContainer = document.getElementById('nav-container');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 60) {
+                navContainer.classList.add('py-3');
+                navContainer.classList.remove('py-4');
+                navbar.style.boxShadow = '0 4px 20px -8px rgba(0,0,0,0.3)';
+            } else {
+                navContainer.classList.add('py-4');
+                navContainer.classList.remove('py-3');
+                navbar.style.boxShadow = 'none';
+            }
+            
+            const backToTop = document.getElementById('back-to-top');
+            if (window.scrollY > 600) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        
+        // ============================================
+        // MOBILE MENU
+        // ============================================
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuClose = document.getElementById('menu-close');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        menuClose.addEventListener('click', () => {
+            mobileMenu.classList.remove('open');
+            document.body.style.overflow = '';
+        });
+        
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                document.body.style.overflow = '';
+            });
+        });
+        
+        // ============================================
+        // SCROLL REVEAL ANIMATION
+        // ============================================
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.12,
+            rootMargin: '0px 0px -50px 0px'
+        });
+        
+        revealElements.forEach(el => revealObserver.observe(el));
+        
+        // ============================================
+        // COUNTER ANIMATION
+        // ============================================
+        const counters = document.querySelectorAll('.counter');
+        
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = parseInt(entry.target.dataset.target);
+                    let current = 0;
+                    const duration = 1500;
+                    const startTime = performance.now();
+                    
+                    const animate = (now) => {
+                        const elapsed = now - startTime;
+                        const progress = Math.min(elapsed / duration, 1);
+                        const eased = 1 - Math.pow(1 - progress, 3);
+                        current = Math.floor(eased * target);
+                        entry.target.textContent = current;
+                        
+                        if (progress < 1) {
+                            requestAnimationFrame(animate);
+                        } else {
+                            entry.target.textContent = target;
+                        }
+                    };
+                    
+                    requestAnimationFrame(animate);
+                    counterObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        counters.forEach(c => counterObserver.observe(c));
+        
+        // ============================================
+        // ACTIVE NAV LINK ON SCROLL
+        // ============================================
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.3, rootMargin: '-80px 0px -50% 0px' });
+        
+        sections.forEach(s => sectionObserver.observe(s));
+        
+        // ============================================
+        // CONTACT FORM VALIDATION
+        // ============================================
+        const form = document.getElementById('contact-form');
+        const formSuccess = document.getElementById('form-success');
+        const formError = document.getElementById('form-error');
+        const formErrorDetail = document.getElementById('form-error-detail');
+        
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            formSuccess.classList.add('hidden');
+            formError.classList.add('hidden');
+            
+            const fields = {
+                name: { el: document.getElementById('name'), required: true, type: 'text' },
+                company: { el: document.getElementById('company'), required: false, type: 'text' },
+                email: { el: document.getElementById('email'), required: true, type: 'email' },
+                phone: { el: document.getElementById('phone'), required: false, type: 'tel' },
+                service: { el: document.getElementById('service'), required: true, type: 'select' },
+                message: { el: document.getElementById('message'), required: true, type: 'text' }
+            };
+            
+            let isValid = true;
+            let firstError = '';
+            
+            Object.keys(fields).forEach(key => {
+                const field = fields[key];
+                const value = field.el.value.trim();
+                
+                field.el.classList.remove('error');
+                
+                if (field.required && !value) {
+                    field.el.classList.add('error');
+                    isValid = false;
+                    if (!firstError) firstError = `${key.charAt(0).toUpperCase() + key.slice(1)} is required.`;
+                } else if (field.type === 'email' && value) {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(value)) {
+                        field.el.classList.add('error');
+                        isValid = false;
+                        if (!firstError) firstError = 'Please enter a valid email address.';
+                    }
+                }
+            });
+            
+            if (!isValid) {
+                formErrorDetail.textContent = firstError || 'Some required fields are missing or invalid.';
+                formError.classList.remove('hidden');
+                formError.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                return;
+            }
+            
+            if (CONFIG.formEndpoint) {
+                fetch(CONFIG.formEndpoint, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name: fields.name.el.value,
+                        company: fields.company.el.value,
+                        email: fields.email.el.value,
+                        phone: fields.phone.el.value,
+                        service: fields.service.el.value,
+                        message: fields.message.el.value
+                    })
+                })
+                .then(response => {
+                    if (response.ok) {
+                        showFormSuccess();
+                    } else {
+                        throw new Error('Submission failed');
+                    }
+                })
+                .catch(error => {
+                    formErrorDetail.textContent = 'There was an error submitting your inquiry. Please try again or contact us directly.';
+                    formError.classList.remove('hidden');
+                });
+            } else {
+                showFormSuccess();
+            }
+        });
+        
+        function showFormSuccess() {
+            formSuccess.classList.remove('hidden');
+            form.reset();
+            formSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            
+            setTimeout(() => {
+                formSuccess.classList.add('hidden');
+            }, 8000);
+        }
+        
+        // ============================================
+        // CERTIFICATE VIEW NOTIFICATION
+        // ============================================
+        function showCertNotice() {
+            alert('Certificate document is available upon verified request.\n\nPlease contact us directly at Pinteksuksesindonesia@gmail.com or call 082254749221 to request the certificate of approval.');
+        }
+        
+        // ============================================
+        // BACK TO TOP
+        // ============================================
+        const backToTop = document.getElementById('back-to-top');
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
+        // ============================================
+        // SET CURRENT YEAR
+        // ============================================
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // ============================================
+        // SMOOTH SCROLL FOR ANCHOR LINKS
+        // ============================================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    const offset = 70;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                }
+            });
+        });
+        
+        // ============================================
+        // HERO PARALLAX (subtle)
+        // ============================================
+        const heroVisual = document.querySelector('.hero-visual');
+        if (heroVisual && window.matchMedia('(min-width: 1024px)').matches) {
+            window.addEventListener('scroll', () => {
+                const scrolled = window.scrollY;
+                if (scrolled < 800) {
+                    heroVisual.style.transform = `translateY(${scrolled * 0.05}px)`;
+                }
+            });
+        }
+        
+        // ============================================
+        // INITIALIZE ICONS AFTER DOM LOAD
+        // ============================================
+        window.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+        });
+    </script>
+
+</body>
+</html>
